@@ -10,9 +10,8 @@ import Image from 'next/image';
 import placeholderImages from '@/lib/placeholder-images.json';
 import { useToast } from "@/hooks/use-toast";
 
-function FooterContent() {
+export default function Footer() {
   const { toast } = useToast();
-  const bgImage = placeholderImages.placeholderImages.find(p => p.id === 'footer-bg');
 
   const handleSubscribe = (e: React.FormEvent) => {
     e.preventDefault();
@@ -59,17 +58,8 @@ function FooterContent() {
   const libroReclamacionesImg = placeholderImages.placeholderImages.find(p => p.id === 'libro-reclamaciones');
 
   return (
-    <footer className="relative w-full h-full flex flex-col justify-end">
-       {bgImage && (
-         <div 
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${bgImage.imageUrl})` }}
-        />
-      )}
-      <div className="absolute inset-0 bg-background/80" />
-      <div className="absolute inset-0 bg-gradient-to-t from-background via-background to-transparent" />
-
-      <div className="relative container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <footer className="bg-background border-t border-border">
+      <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           <div className="lg:col-span-2 pr-8">
             <Link href="/">
@@ -145,8 +135,4 @@ function FooterContent() {
       </div>
     </footer>
   );
-}
-
-export default function Footer() {
-    return <FooterContent />;
 }

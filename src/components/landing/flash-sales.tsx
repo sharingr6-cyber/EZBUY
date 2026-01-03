@@ -8,7 +8,6 @@ import {
 } from "@/components/ui/carousel";
 import ProductCard from "@/components/product-card";
 import { Clock } from "lucide-react";
-import placeholderImages from '@/lib/placeholder-images.json';
 
 function CountdownTimer() {
     const timeUnits = [
@@ -36,22 +35,9 @@ function CountdownTimer() {
 }
 
 export default function FlashSales() {
-  const bgImage = placeholderImages.placeholderImages.find(p => p.id === 'flash-sales-bg');
-
   return (
-    <section 
-      className="relative h-full w-full flex flex-col justify-center container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 md:py-24"
-    >
-      {bgImage && (
-         <div 
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${bgImage.imageUrl})` }}
-        />
-      )}
-      <div className="absolute inset-0 bg-background/80" />
-      <div className="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background" />
-
-      <div className="relative">
+    <section className="bg-background/90 py-16 md:py-24 border-y border-border">
+      <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-12">
           <div className="text-center md:text-left">
             <h2 className="text-3xl font-extrabold tracking-tight uppercase sm:text-4xl font-headline">

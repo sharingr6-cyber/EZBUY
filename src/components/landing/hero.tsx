@@ -10,7 +10,7 @@ export default function HeroSection() {
 
   return (
     <section 
-      className="relative h-full w-full flex items-center justify-center text-center text-white overflow-hidden"
+      className="relative h-[80vh] min-h-[600px] w-full flex items-center justify-center text-center text-white overflow-hidden"
     >
       {heroImage && (
          <div 

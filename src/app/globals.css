@@ -56,16 +56,4 @@
   body {
     @apply bg-background text-foreground;
   }
-  
-  html {
-    scroll-behavior: smooth;
-  }
-
-  .scroll-section {
-    min-height: 100vh;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
 }

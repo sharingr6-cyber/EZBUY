@@ -11,25 +11,13 @@ export default function HomePage() {
     <>
       <Header />
       <main className="flex-grow flex flex-col">
-        <section className="scroll-section">
-          <HeroSection />
-        </section>
-        <section className="scroll-section">
-          <FeaturedProducts />
-        </section>
-        <section className="scroll-section">
-          <FlashSales />
-        </section>
-        <section className="scroll-section">
-          <LiveStreams />
-        </section>
-        <section className="scroll-section">
-          <PcBuilder />
-        </section>
-        <section className="scroll-section">
-          <Footer />
-        </section>
+        <HeroSection />
+        <FeaturedProducts />
+        <FlashSales />
+        <LiveStreams />
+        <PcBuilder />
       </main>
+      <Footer />
     </>
   );
 }

@@ -1,5 +1,4 @@
 import { Button } from '@/components/ui/button';
-import placeholderImages from '@/lib/placeholder-images.json';
 import Link from 'next/link';
 import { WhatsAppIcon, BuildPcIcon, WarrantyIcon, ShippingIcon } from '../icons';
 
@@ -17,7 +16,6 @@ const InfoCard = ({ icon, title, description }: { icon: React.ReactNode, title: 
 
 
 export default function PcBuilder() {
-  const bgImage = placeholderImages.placeholderImages.find(p => p.id === 'pc-builder-bg');
   const phoneNumber = "1234567890";
   const message = "¡Hola EZBUY! Quisiera recibir asesoría para armar mi propia PC gamer.";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
@@ -25,16 +23,9 @@ export default function PcBuilder() {
 
   return (
     <section 
-      className="relative py-24 sm:py-32 h-full flex flex-col justify-center"
+      className="py-24 sm:py-32 bg-background"
     >
-        <div 
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: bgImage ? `url(${bgImage.imageUrl})` : 'none' }}
-        />
-        <div className="absolute inset-0 bg-background/80 backdrop-brightness-50" />
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
-        
-        <div className="relative container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
                 <div className="text-center lg:text-left">
                     <h2 className="text-4xl sm:text-5xl font-black uppercase font-headline tracking-tighter">
