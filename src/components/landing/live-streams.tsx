@@ -77,7 +77,7 @@ export default function LiveStreams() {
     }, []);
     
     return (
-        <section className="relative py-24 sm:py-32 border-y border-border overflow-hidden h-full flex flex-col justify-center">
+        <section className="relative py-24 sm:py-32 border-y border-border overflow-hidden">
             <div className="absolute inset-0">
                 {backgroundImages.map((bgImage, index) => (
                     <div
@@ -95,10 +95,10 @@ export default function LiveStreams() {
             <div className="absolute bottom-0 h-32 w-full bg-gradient-to-t from-background to-transparent" />
 
             <div className="relative container mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
-                <h2 className="text-4xl sm:text-5xl font-black uppercase font-headline tracking-tighter">
+                <h2 className="text-3xl sm:text-5xl font-black uppercase font-headline tracking-tighter">
                     Únete al <span className="text-primary">Squad</span>
                 </h2>
-                <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
+                <p className="mt-4 max-w-2xl mx-auto text-base sm:text-lg text-muted-foreground">
                     ¡No te pierdas ni un segundo de la acción! Sígueme en mis canales y forma parte de la comunidad.
                 </p>
 
