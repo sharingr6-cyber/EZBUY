@@ -1,3 +1,4 @@
+
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { WhatsAppIcon, BuildPcIcon, WarrantyIcon, ShippingIcon } from '../icons';
@@ -26,7 +27,7 @@ export default function PcBuilder() {
       className="py-24 sm:py-32 bg-background"
     >
         <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                 <div className="text-center lg:text-left">
                     <h2 className="text-4xl sm:text-5xl font-black uppercase font-headline tracking-tighter">
                         CONSTRUYE TU MÁQUINA
