@@ -105,6 +105,7 @@ export default function ProductFilters({ activeCategory, onCategoryChange }: Pro
                         ))}
                     </div>
                 </div>
+                <Button className="w-full bg-white text-pink-500 font-bold hover:bg-pink-100 hover:shadow-lg hover:shadow-white/20">Aplicar Filtros</Button>
             </CardContent>
         </Card>
 
