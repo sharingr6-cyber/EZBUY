@@ -1,24 +1,47 @@
 
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, Suspense } from "react";
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 import ProductGrid from "@/components/products/product-grid";
 import ProductFilters from "@/components/products/product-filters";
 import { allProducts, type Product } from "@/lib/data";
+import { useSearchParams } from "next/navigation";
 
 export type SortOption = 'popular' | 'price-asc' | 'price-desc' | 'rating';
 
-export default function ProductsPage() {
-  const [activeCategory, setActiveCategory] = useState('Todos');
+function ProductsPageContent() {
+  const searchParams = useSearchParams();
+  const initialCategory = searchParams.get('category') || 'Todos';
+  const initialSearch = searchParams.get('search') || '';
+
+  const [activeCategory, setActiveCategory] = useState(initialCategory);
   const [sortOption, setSortOption] = useState<SortOption>('popular');
+  const [searchQuery, setSearchQuery] = useState(initialSearch);
 
-  const filteredProducts = activeCategory === 'Todos'
-    ? allProducts
-    : allProducts.filter(p => p.category === activeCategory);
+  useEffect(() => {
+    setActiveCategory(initialCategory);
+  }, [initialCategory]);
 
-  const sortedProducts = [...filteredProducts].sort((a, b) => {
+  useEffect(() => {
+    setSearchQuery(initialSearch);
+  }, [initialSearch]);
+
+
+  const searchFilteredProducts = searchQuery
+    ? allProducts.filter(p => 
+        p.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        p.category.toLowerCase().includes(searchQuery.toLowerCase())
+      )
+    : allProducts;
+  
+  const categoryFilteredProducts = activeCategory === 'Todos'
+    ? searchFilteredProducts
+    : searchFilteredProducts.filter(p => p.category === activeCategory);
+
+
+  const sortedProducts = [...categoryFilteredProducts].sort((a, b) => {
     switch (sortOption) {
       case 'price-asc':
         return a.price - b.price;
@@ -44,7 +67,7 @@ export default function ProductsPage() {
           />
           <ProductGrid 
             products={sortedProducts} 
-            categoryTitle={activeCategory}
+            categoryTitle={searchQuery ? `Resultados para "${searchQuery}"` : activeCategory}
             sortOption={sortOption}
             onSortChange={setSortOption}
           />
@@ -52,5 +75,13 @@ export default function ProductsPage() {
       </main>
       <Footer />
     </div>
+  );
+}
+
+export default function ProductsPage() {
+  return (
+    <Suspense fallback={<div>Cargando...</div>}>
+      <ProductsPageContent />
+    </Suspense>
   );
 }

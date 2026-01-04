@@ -16,6 +16,8 @@ import { cn } from "@/lib/utils";
 
 function Breadcrumbs({ categoryTitle }: { categoryTitle: string }) {
   const isAll = categoryTitle === 'Todos';
+  const isSearch = categoryTitle.startsWith('Resultados para');
+
   return (
     <nav aria-label="Breadcrumb">
       <ol className="flex items-center gap-1.5 text-sm text-muted-foreground">
@@ -27,7 +29,7 @@ function Breadcrumbs({ categoryTitle }: { categoryTitle: string }) {
         </li>
         <li className="text-primary">/</li>
         <li>
-          <Link href="/products" className={cn("font-semibold", isAll ? "text-foreground" : "text-muted-foreground hover:text-primary")}>
+          <Link href="/products" className={cn("font-semibold", isAll && !isSearch ? "text-foreground" : "text-muted-foreground hover:text-primary")}>
             Productos
           </Link>
         </li>
@@ -82,8 +84,17 @@ type ProductGridProps = {
 };
 
 export default function ProductGrid({ products, categoryTitle, sortOption, onSortChange }: ProductGridProps) {
-    const headerTitle = categoryTitle === 'Todos' ? 'Todos los Productos' : categoryTitle;
-    const headerSubtitle = categoryTitle === 'Todos'
+    const isSearch = categoryTitle.startsWith('Resultados para');
+    
+    const headerTitle = isSearch 
+      ? categoryTitle 
+      : categoryTitle === 'Todos' 
+        ? 'Todos los Productos' 
+        : categoryTitle;
+
+    const headerSubtitle = isSearch
+      ? `Encontramos ${products.length} productos que coinciden con tu búsqueda.`
+      : categoryTitle === 'Todos'
         ? 'Explora todo nuestro arsenal de hardware y periféricos.'
         : `Precisión, velocidad y comodidad para llevar tu juego al siguiente nivel en ${categoryTitle.toLowerCase()}.`;
 
@@ -109,40 +120,47 @@ export default function ProductGrid({ products, categoryTitle, sortOption, onSor
       
       <div className="text-center mb-12">
         <h1 className="text-3xl md:text-4xl font-black uppercase font-headline tracking-tighter">
-            {headerTitle.split(' ').slice(0, -1).join(' ')} <span className="text-primary">{headerTitle.split(' ').slice(-1)}</span>
+            {isSearch ? headerTitle.split('"')[0] : headerTitle.split(' ').slice(0, -1).join(' ')}
+            <span className="text-primary">{isSearch ? `"${headerTitle.split('"')[1]}"` : headerTitle.split(' ').slice(-1)}</span>
         </h1>
         <p className="mt-2 text-muted-foreground max-w-2xl mx-auto">
             {headerSubtitle}
         </p>
       </div>
 
-
-      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
-        {products.map((product) => (
-           <ProductCard key={product.id} product={product}>
-              <div className="p-4 space-y-3">
-                  <p className="text-xs font-semibold uppercase tracking-wider text-primary">{product.category}</p>
-                  <h3 className="text-lg font-bold leading-tight text-foreground truncate h-6">{product.name}</h3>
-                  <ProductRating rating={product.rating || 0} reviewCount={product.reviewCount || 0} />
-                  <div className="flex items-baseline justify-between pt-2">
-                      <div className="flex items-baseline gap-2">
-                          <p className="text-2xl font-extrabold text-foreground">
-                              S/{product.price.toFixed(2)}
-                          </p>
-                          {product.originalPrice && (
-                              <p className="text-sm text-muted-foreground line-through">
-                                  S/{product.originalPrice?.toFixed(2)}
+      {products.length > 0 ? (
+        <>
+          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
+            {products.map((product) => (
+              <ProductCard key={product.id} product={product}>
+                  <div className="p-4 space-y-3">
+                      <p className="text-xs font-semibold uppercase tracking-wider text-primary">{product.category}</p>
+                      <h3 className="text-lg font-bold leading-tight text-foreground truncate h-6">{product.name}</h3>
+                      <ProductRating rating={product.rating || 0} reviewCount={product.reviewCount || 0} />
+                      <div className="flex items-baseline justify-between pt-2">
+                          <div className="flex items-baseline gap-2">
+                              <p className="text-2xl font-extrabold text-foreground">
+                                  S/{product.price.toFixed(2)}
                               </p>
-                          )}
+                              {product.originalPrice && (
+                                  <p className="text-sm text-muted-foreground line-through">
+                                      S/{product.originalPrice?.toFixed(2)}
+                                  </p>
+                              )}
+                          </div>
                       </div>
                   </div>
-              </div>
-            </ProductCard>
-        ))}
-      </div>
+                </ProductCard>
+            ))}
+          </div>
+          <ProductPagination />
+        </>
+      ) : (
+        <div className="text-center py-16">
+            <p className="text-lg text-muted-foreground">No se encontraron productos.</p>
+        </div>
+      )}
       
-      <ProductPagination />
-
     </div>
   );
 }

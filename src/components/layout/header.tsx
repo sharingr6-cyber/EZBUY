@@ -18,7 +18,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import { useAuth, useUser } from '@/firebase';
 
 
@@ -30,6 +30,8 @@ function HeaderContent() {
   const auth = useAuth();
   const [isSheetOpen, setIsSheetOpen] = useState(false);
   const pathname = usePathname();
+  const router = useRouter();
+  const [searchQuery, setSearchQuery] = useState('');
 
   const totalItems = cartItems.reduce((sum, item) => sum + item.quantity, 0);
 
@@ -59,6 +61,12 @@ function HeaderContent() {
   
   const handleLogout = () => {
     auth.signOut();
+  };
+
+  const handleSearch = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter' && searchQuery.trim()) {
+      router.push(`/products?search=${encodeURIComponent(searchQuery.trim())}`);
+    }
   };
   
   const NavLink = ({ href, children, isExternal }: { href: string; children: React.ReactNode, isExternal?: boolean }) => {
@@ -131,6 +139,9 @@ function HeaderContent() {
                 type="search"
                 placeholder="Buscar productos..."
                 className="h-10 w-64 pr-10 bg-input"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                onKeyDown={handleSearch}
               />
               <Search className="absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
             </div>
