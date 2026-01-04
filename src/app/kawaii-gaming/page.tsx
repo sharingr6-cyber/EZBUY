@@ -14,12 +14,29 @@ export type SortOption = 'popular' | 'price-asc' | 'price-desc' | 'rating';
 export default function KawaiiGamingPage() {
   const [activeCategory, setActiveCategory] = useState('Todos');
   const [sortOption, setSortOption] = useState<SortOption>('popular');
+  const [filters, setFilters] = useState({
+    price: 20000,
+    brands: [] as string[],
+    characters: [] as string[],
+  });
 
-  const filteredProducts = activeCategory === 'Todos'
+  const handleApplyFilters = (newFilters: { price: number; brands: string[]; characters: string[] }) => {
+    setFilters(newFilters);
+  };
+
+  const categoryFilteredProducts = activeCategory === 'Todos'
     ? kawaiiProducts
     : kawaiiProducts.filter(p => p.category === activeCategory);
 
-  const sortedProducts = [...filteredProducts].sort((a, b) => {
+  const fullyFilteredProducts = categoryFilteredProducts.filter(p => {
+    const priceMatch = p.price <= filters.price;
+    const brandMatch = filters.brands.length === 0 || p.tags?.some(tag => filters.brands.includes(tag));
+    const characterMatch = filters.characters.length === 0 || p.tags?.some(tag => filters.characters.includes(tag));
+    return priceMatch && (brandMatch || characterMatch);
+  });
+
+
+  const sortedProducts = [...fullyFilteredProducts].sort((a, b) => {
     switch (sortOption) {
       case 'price-asc':
         return a.price - b.price;
@@ -44,6 +61,7 @@ export default function KawaiiGamingPage() {
             <ProductFilters
               activeCategory={activeCategory}
               onCategoryChange={setActiveCategory}
+              onApplyFilters={handleApplyFilters}
             />
             <ProductGrid 
               products={sortedProducts} 

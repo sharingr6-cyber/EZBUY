@@ -26,11 +26,30 @@ const characters = ['Hello Kitty', 'Kuromi', 'My Melody', 'Cinnamoroll'];
 type ProductFiltersProps = {
   activeCategory: string;
   onCategoryChange: (category: string) => void;
+  onApplyFilters: (filters: { price: number; brands: string[]; characters: string[] }) => void;
 };
 
-export default function ProductFilters({ activeCategory, onCategoryChange }: ProductFiltersProps) {
+export default function ProductFilters({ activeCategory, onCategoryChange, onApplyFilters }: ProductFiltersProps) {
   const [price, setPrice] = useState([20000]);
+  const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
+  const [selectedCharacters, setSelectedCharacters] = useState<string[]>([]);
+
+  const handleBrandChange = (brand: string, checked: boolean) => {
+    setSelectedBrands(prev => checked ? [...prev, brand] : prev.filter(b => b !== brand));
+  };
   
+  const handleCharacterChange = (character: string, checked: boolean) => {
+    setSelectedCharacters(prev => checked ? [...prev, character] : prev.filter(c => c !== character));
+  };
+
+  const handleApply = () => {
+    onApplyFilters({
+      price: price[0],
+      brands: selectedBrands,
+      characters: selectedCharacters,
+    });
+  };
+
   return (
     <aside className="w-full lg:w-1/4 xl:w-1/5">
       <div className="sticky top-24 space-y-6">
@@ -88,7 +107,11 @@ export default function ProductFilters({ activeCategory, onCategoryChange }: Pro
                     <div className="space-y-2">
                         {brands.map(brand => (
                             <div key={brand} className="flex items-center space-x-2">
-                                <Checkbox id={brand} className="rounded-[4px] border-pink-400 data-[state=checked]:bg-pink-400 data-[state=checked]:text-white" />
+                                <Checkbox 
+                                  id={brand} 
+                                  className="rounded-[4px] border-pink-400 data-[state=checked]:bg-pink-400 data-[state=checked]:text-white" 
+                                  onCheckedChange={(checked) => handleBrandChange(brand, !!checked)}
+                                />
                                 <Label htmlFor={brand} className="text-sm text-pink-200/80">{brand}</Label>
                             </div>
                         ))}
@@ -99,13 +122,17 @@ export default function ProductFilters({ activeCategory, onCategoryChange }: Pro
                     <div className="space-y-2">
                         {characters.map(char => (
                             <div key={char} className="flex items-center space-x-2">
-                                <Checkbox id={char} className="rounded-[4px] border-pink-400 data-[state=checked]:bg-pink-400 data-[state=checked]:text-white" />
+                                <Checkbox 
+                                  id={char} 
+                                  className="rounded-[4px] border-pink-400 data-[state=checked]:bg-pink-400 data-[state=checked]:text-white" 
+                                  onCheckedChange={(checked) => handleCharacterChange(char, !!checked)}
+                                />
                                 <Label htmlFor={char} className="text-sm text-pink-200/80">{char}</Label>
                             </div>
                         ))}
                     </div>
                 </div>
-                <Button className="w-full bg-white text-pink-500 font-bold hover:bg-pink-100 hover:shadow-lg hover:shadow-white/20">Aplicar Filtros</Button>
+                <Button onClick={handleApply} className="w-full bg-white text-pink-500 font-bold hover:bg-pink-100 hover:shadow-lg hover:shadow-white/20">Aplicar Filtros</Button>
             </CardContent>
         </Card>
 
