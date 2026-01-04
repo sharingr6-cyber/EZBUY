@@ -27,10 +27,10 @@ export default function Footer() {
     {
       title: 'Shop',
       links: [
-        { name: 'Periféricos', href: '/products' },
-        { name: 'Componentes', href: '/products' },
-        { name: 'Monitores', href: '/products' },
-        { name: 'Sillas Gamer', href: '/products' },
+        { name: 'Tarjetas Gráficas', href: '/products?category=Tarjetas%20Gráficas' },
+        { name: 'Procesadores', href: '/products?category=Procesadores' },
+        { name: 'Monitores', href: '/products?category=Monitor' },
+        { name: 'Periféricos', href: '/products?category=Teclados%20y%20Ratones' },
         { name: 'Ofertas', href: '/ofertas' },
       ],
     },
