@@ -1,3 +1,4 @@
+
 "use client";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -10,10 +11,14 @@ const categories = [
     { name: 'Procesadores' },
     { name: 'Monitor' },
     { name: 'Teclados y Ratones' },
+    { name: 'Mousepad' },
+    { name: 'Webcams' },
+    { name: 'Micrófonos' },
     { name: 'Audio' },
     { name: 'Almacenamiento' },
     { name: 'Memoria' },
     { name: 'Fuente de Poder' },
+    { name: 'Case' },
 ];
 
 type ProductFiltersProps = {
