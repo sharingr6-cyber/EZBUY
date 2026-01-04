@@ -284,18 +284,18 @@ export const allProducts: Product[] = [
     specs: ['Inalámbrico', 'Base Station', 'Dolby Audio', 'PS & PC']
   },
   {
-    id: 'audio-2',
-    name: 'Micrófono Condensador HyperCast',
-    category: 'Audio',
-    price: 519.99,
-    image: findImage('mic-1'),
+    id: 'mic-3',
+    name: 'HyperX QuadCast S',
+    category: 'Micrófonos',
+    price: 679.99,
+    image: findImage('mic-3'),
     rating: 5,
-    reviewCount: 210,
-    sku: 'AUD-HC-C1',
-    stock: 50,
-    specs: ['Condensador', 'USB-C', 'Soporte anti-vibración', 'Filtro pop']
+    reviewCount: 520,
+    sku: 'MIC-HX-QCS',
+    stock: 70,
+    specs: ['4 Patrones Polares', 'RGB Dinámico', 'Sensor Tap-to-Mute', 'USB']
   },
-    {
+  {
     id: 'audio-3',
     name: 'SteelSeries Arctis Nova Pro Wireless',
     category: 'Audio',
@@ -308,16 +308,40 @@ export const allProducts: Product[] = [
     specs: ['ANC', 'Doble Batería', 'Hi-Fi Audio', 'Multi-System']
   },
   {
-    id: 'audio-4',
+    id: 'mic-4',
     name: 'Shure MV7 USB/XLR Micrófono',
-    category: 'Audio',
+    category: 'Micrófonos',
     price: 996.00,
-    image: findImage('mic-2'),
+    image: findImage('mic-4'),
     rating: 5,
     reviewCount: 280,
     sku: 'AUD-SHURE-MV7',
     stock: 45,
     specs: ['Dinámico', 'USB & XLR', 'Control Táctil', 'App Motiv']
+  },
+  {
+    id: 'mic-5',
+    name: 'Razer Seiren V2 Pro',
+    category: 'Micrófonos',
+    price: 599.99,
+    image: findImage('mic-5'),
+    rating: 4,
+    reviewCount: 150,
+    sku: 'MIC-RAZER-SV2P',
+    stock: 65,
+    specs: ['Dinámico', 'Filtro paso alto', 'Limitador ganancia', 'USB']
+  },
+  {
+    id: 'mic-6',
+    name: 'Blue Yeti USB Microphone',
+    category: 'Micrófonos',
+    price: 519.99,
+    image: findImage('mic-6'),
+    rating: 4,
+    reviewCount: 1800,
+    sku: 'MIC-BLUE-YETI',
+    stock: 150,
+    specs: ['Tri-cápsula', 'Múltiples patrones', 'Control de ganancia', 'Plug & Play']
   },
   {
     id: 'storage-1',
@@ -404,6 +428,150 @@ export const allProducts: Product[] = [
     sku: 'PSU-COR-RM1000XS',
     stock: 30,
     specs: ['1000 Watts', '80+ Gold', 'Modular', 'Conectores Laterales']
+  },
+  {
+    id: 'mousepad-1',
+    name: 'SteelSeries QcK Heavy',
+    category: 'Mousepad',
+    price: 119.99,
+    image: findImage('mousepad-1'),
+    rating: 5,
+    reviewCount: 1500,
+    sku: 'PAD-SS-QCKH',
+    stock: 200,
+    specs: ['Tela micro-tejida', 'Base de goma gruesa', '450x400mm', 'Control']
+  },
+  {
+    id: 'mousepad-2',
+    name: 'Logitech G840 XL',
+    category: 'Mousepad',
+    price: 199.99,
+    image: findImage('mousepad-2'),
+    rating: 4,
+    reviewCount: 800,
+    sku: 'PAD-LOGI-G840',
+    stock: 150,
+    specs: ['Superficie extra grande', '900x400mm', 'Fricción moderada', 'Enrollable']
+  },
+  {
+    id: 'mousepad-3',
+    name: 'Razer Gigantus V2',
+    category: 'Mousepad',
+    price: 139.99,
+    image: findImage('mousepad-3'),
+    rating: 4,
+    reviewCount: 950,
+    sku: 'PAD-RAZER-GIGV2',
+    stock: 180,
+    specs: ['Tejido texturizado', 'Espuma de alta densidad', 'Base antideslizante', 'Varios tamaños']
+  },
+  {
+    id: 'mousepad-4',
+    name: 'Corsair MM300 Pro',
+    category: 'Mousepad',
+    price: 119.99,
+    image: findImage('mousepad-4'),
+    rating: 4,
+    reviewCount: 600,
+    sku: 'PAD-COR-MM300P',
+    stock: 130,
+    specs: ['Resistente a derrames', '930x300mm', 'Bordes cosidos', 'Uso rudo']
+  },
+  {
+    id: 'webcam-1',
+    name: 'Logitech C920 HD Pro',
+    category: 'Webcams',
+    price: 279.99,
+    image: findImage('webcam-1'),
+    rating: 5,
+    reviewCount: 10000,
+    sku: 'CAM-LOGI-C920',
+    stock: 300,
+    specs: ['1080p/30fps', 'Lente de cristal', 'Corrección de luz', 'Micrófonos estéreo']
+  },
+  {
+    id: 'webcam-2',
+    name: 'Razer Kiyo Pro',
+    category: 'Webcams',
+    price: 799.99,
+    image: findImage('webcam-2'),
+    rating: 5,
+    reviewCount: 1200,
+    sku: 'CAM-RAZER-KIYOP',
+    stock: 80,
+    specs: ['1080p/60fps sin comp.', 'Sensor de luz adaptable', 'HDR', 'Lente gran angular']
+  },
+  {
+    id: 'webcam-3',
+    name: 'Elgato Facecam',
+    category: 'Webcams',
+    price: 679.99,
+    image: findImage('webcam-3'),
+    rating: 4,
+    reviewCount: 900,
+    sku: 'CAM-ELG-FACECAM',
+    stock: 100,
+    specs: ['1080p/60fps reales', 'Sensor Sony STARVIS', 'Control avanzado', 'Lente Elgato Prime']
+  },
+  {
+    id: 'webcam-4',
+    name: 'Logitech Brio 4K',
+    category: 'Webcams',
+    price: 719.99,
+    image: findImage('webcam-4'),
+    rating: 5,
+    reviewCount: 2500,
+    sku: 'CAM-LOGI-BRIO',
+    stock: 90,
+    specs: ['Resolución 4K UHD', 'HDR', 'RightLight 3', 'Campo visual ajustable']
+  },
+  {
+    id: 'case-1',
+    name: 'NZXT H5 Flow',
+    category: 'Case',
+    price: 359.99,
+    image: findImage('case-1'),
+    rating: 5,
+    reviewCount: 700,
+    sku: 'CASE-NZXT-H5F',
+    stock: 50,
+    specs: ['Panel frontal perforado', 'Mid-Tower', 'Excelente flujo de aire', 'Gestión de cables']
+  },
+  {
+    id: 'case-2',
+    name: 'Lian Li PC-O11 Dynamic',
+    category: 'Case',
+    price: 639.99,
+    image: findImage('case-2'),
+    rating: 5,
+    reviewCount: 1500,
+    sku: 'CASE-LIANLI-O11D',
+    stock: 40,
+    specs: ['Diseño de doble cámara', 'Vidrio templado', 'Refrigeración líquida', 'USB-C']
+  },
+  {
+    id: 'case-3',
+    name: 'Corsair 4000D Airflow',
+    category: 'Case',
+    price: 399.99,
+    image: findImage('case-3'),
+    rating: 5,
+    reviewCount: 2000,
+    sku: 'CASE-COR-4000DA',
+    stock: 80,
+    specs: ['Alto flujo de aire', 'Panel frontal optimizado', 'Sistema RapidRoute', '2x ventiladores AirGuide']
+  },
+  {
+    id: 'case-4',
+    name: 'Fractal Design Meshify 2',
+    category: 'Case',
+    price: 679.99,
+    image: findImage('case-4'),
+    rating: 5,
+    reviewCount: 800,
+    sku: 'CASE-FRACTAL-M2',
+    stock: 30,
+    specs: ['Diseño icónico', 'Panel frontal de malla', 'Interior modular', 'Filtros de fácil limpieza']
   }
 ];
 
@@ -414,7 +582,7 @@ export const kawaiiProducts: Product[] = [
   {
     id: 'kawaii-headset-1',
     name: 'Audífonos Gatito-Chan Rosados',
-    category: 'Audífonos de Gato',
+    category: 'Audifonos',
     price: 319.99,
     originalPrice: 399.99,
     image: findImage('kawaii-headset-1'),
@@ -429,7 +597,7 @@ export const kawaiiProducts: Product[] = [
     {
     id: 'kawaii-headset-2',
     name: 'Audífonos Orejas de Conejo Blancas',
-    category: 'Audífonos de Gato',
+    category: 'Audifonos',
     price: 339.99,
     image: findImage('kawaii-headset-2'),
     gallery: [findImage('kawaii-headset-2'), findImage('kawaii-headset-1'), findImage('kawaii-mic-1'), findImage('kawaii-keyboard-1')],
@@ -443,7 +611,7 @@ export const kawaiiProducts: Product[] = [
   {
     id: 'kawaii-keyboard-1',
     name: 'Teclado 60% Switches Rosados',
-    category: 'Teclados 60% Pink',
+    category: 'Teclados',
     price: 479.99,
     image: findImage('kawaii-keyboard-1'),
     gallery: [findImage('kawaii-keyboard-1'), findImage('kawaii-keyboard-2'), findImage('kawaii-keycaps-1'), findImage('kawaii-headset-1')],
@@ -457,7 +625,7 @@ export const kawaiiProducts: Product[] = [
     {
     id: 'kawaii-keyboard-2',
     name: 'Teclado My Melody Edición Limitada',
-    category: 'Teclados 60% Pink',
+    category: 'Teclados',
     price: 559.99,
     originalPrice: 639.99,
     image: findImage('kawaii-keyboard-2'),
@@ -472,7 +640,7 @@ export const kawaiiProducts: Product[] = [
   {
     id: 'kawaii-mousepad-1',
     name: 'Mousepad Kuromi Edición Especial',
-    category: 'Mousepads Gigantes',
+    category: 'Mousepad',
     price: 159.99,
     image: findImage('kawaii-mousepad-1'),
     rating: 5,
@@ -485,7 +653,7 @@ export const kawaiiProducts: Product[] = [
     {
     id: 'kawaii-mousepad-2',
     name: 'Deskmat Cinnamoroll Sky',
-    category: 'Mousepads Gigantes',
+    category: 'Mousepad',
     price: 179.99,
     image: findImage('kawaii-mousepad-2'),
     rating: 5,
@@ -527,7 +695,7 @@ export const kawaiiProducts: Product[] = [
   {
     id: 'kawaii-case-1',
     name: 'Funda de Nintendo Switch Cinnamoroll',
-    category: 'Fundas de Consola',
+    category: 'Case',
     price: 99.99,
     image: findImage('kawaii-case-1'),
     rating: 5,
@@ -540,7 +708,7 @@ export const kawaiiProducts: Product[] = [
   {
     id: 'kawaii-case-2',
     name: 'Carcasa PS5 Hello Kitty & Friends',
-    category: 'Fundas de Consola',
+    category: 'Case',
     price: 239.99,
     image: findImage('kawaii-case-2'),
     rating: 5,
@@ -553,7 +721,7 @@ export const kawaiiProducts: Product[] = [
    {
     id: 'kawaii-mic-1',
     name: 'Micrófono Corazón Mágico',
-    category: 'Audio',
+    category: 'Microfonos',
     price: 359.99,
     image: findImage('kawaii-mic-1'),
     gallery: [findImage('kawaii-mic-1'), findImage('kawaii-headset-1'), findImage('kawaii-headset-2'), findImage('kawaii-chair-1')],
@@ -567,7 +735,7 @@ export const kawaiiProducts: Product[] = [
   {
     id: 'kawaii-keycaps-1',
     name: 'Keycaps "Pastel Party"',
-    category: 'Teclados 60% Pink',
+    category: 'Teclados',
     price: 239.99,
     image: findImage('kawaii-keycaps-1'),
     rating: 5,

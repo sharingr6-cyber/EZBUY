@@ -27,43 +27,43 @@
     {
       "id": "flash-sales-bg",
       "description": "An abstract, explosive background with fiery red and orange colors, suggesting speed and urgency.",
-      "imageUrl": "https://images.unsplash.com/photo-1574871786522-864c243a70e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMGZpcmUlMjByZWQlMjBzb25pYyUyMGJvb218ZW58MHx8fHwxNzc3MjQ5NTI5fDA&ixlib-rb-4.1.0&q=80&w=1920&h=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1574871786522-864c243a70e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMGZpcmUlMjByZWQlMjBzb25pYyUyMGJvb218ZW58MHx8fHwxNzc3MjQ5NTI5fDA&ixlib=rb-4.1.0&q=80&w=1920&h=1080",
       "imageHint": "abstract fire"
     },
     {
       "id": "footer-bg",
       "description": "A dark, subtle technological background with faint circuit patterns, perfect for a footer.",
-      "imageUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYXJrJTIwcmV0cm8lMjBnYW1pbmclMjBwYXR0ZXJufGVufDB8fHx8MTc3NzI0OTU5NHww&ixlib-rb-4.1.0&q=80&w=1920&h=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYXJrJTIwcmV0cm8lMjBnYW1pbmclMjBwYXR0ZXJufGVufDB8fHx8MTc3NzI0OTU5NHww&ixlib=rb-4.1.0&q=80&w=1920&h=1080",
       "imageHint": "dark pattern"
     },
     {
       "id": "stream-bg-valorant",
       "description": "A dynamic in-game screenshot from Valorant.",
-      "imageUrl": "https://images.unsplash.com/photo-1666325983369-798889c1935c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2YWxvcmFudCUyMGdhbWV8ZW58MHx8fHwxNzc1NzE5NDIyfDA&ixlib-rb-4.1.0&q=80&w=1920&h=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1666325983369-798889c1935c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2YWxvcmFudCUyMGdhbWV8ZW58MHx8fHwxNzc1NzE5NDIyfDA&ixlib=rb-4.1.0&q=80&w=1920&h=1080",
       "imageHint": "valorant game"
     },
     {
       "id": "stream-bg-csgo",
       "description": "An intense action scene from Counter-Strike: Global Offensive.",
-      "imageUrl": "https://images.unsplash.com/photo-1632283011380-ace565f1a588?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcyUyMGdvJTIwZ2FtZXxlbnwwfHx8fDE3NzU3MTk0NDd8MA&ixlib-rb-4.1.0&q=80&w=1920&h=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1632283011380-ace565f1a588?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcyUyMGdvJTIwZ2FtZXxlbnwwfHx8fDE3NzU3MTk0NDd8MA&ixlib=rb-4.1.0&q=80&w=1920&h=1080",
       "imageHint": "csgo game"
     },
     {
       "id": "stream-bg-battlefield",
       "description": "A large-scale battle from the Battlefield series.",
-      "imageUrl": "https://images.unsplash.com/photo-1473457997904-c4b9d038f4a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYXR0bGVmaWVsZCUyMGdhbWV8ZW58MHx8fHwxNzc1NzE5NDcxfDA&ixlib-rb-4.1.0&q=80&w=1920&h=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1473457997904-c4b9d038f4a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYXR0bGVmaWVsZCUyMGdhbWV8ZW58MHx8fHwxNzc1NzE5NDcxfDA&ixlib=rb-4.1.0&q=80&w=1920&h=1080",
       "imageHint": "battlefield game"
     },
     {
       "id": "stream-bg-arcraiders",
       "description": "A sci-fi combat scene from Arc Raiders.",
-      "imageUrl": "https://images.unsplash.com/photo-1709201772094-a14101a1e053?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcmMlMjByYWlkZXJzJTIwZ2FtZXxlbnwwfHx8fDE3NzU3MTk0OTJ8MA&ixlib-rb-4.1.0&q=80&w=1920&h=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1709201772094-a14101a1e053?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcmMlMjByYWlkZXJzJTIwZ2FtZXxlbnwwfHx8fDE3NzU3MTk0OTJ8MA&ixlib=rb-4.1.0&q=80&w=1920&h=1080",
       "imageHint": "arc raiders"
     },
     {
       "id": "stream-bg-minecraft",
       "description": "A beautiful landscape built in Minecraft.",
-      "imageUrl": "https://images.unsplash.com/photo-1662754659422-a816157e5108?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaW5lY3JhZnQlMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzc1NzE5NTEyfDA&ixlib-rb-4.1.0&q=80&w=1920&h=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1662754659422-a816157e5108?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaW5lY3JhZnQlMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzc1NzE5NTEyfDA&ixlib=rb-4.1.0&q=80&w=1920&h=1080",
       "imageHint": "minecraft landscape"
     },
     {
@@ -74,104 +74,104 @@
     },
     {
       "id": "gpu-1",
-      "description": "A powerful graphics card on a blurry desk background.",
-      "imageUrl": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmFwaGljcyUyMGNhcmQlMjBvbiUyMGRlc2slMjBibHVycnklMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc4ODU5NzcxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A powerful graphics card on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1627885793483-45890910f130?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb3dlcmZ1bCUyMGdyYXBoaWNzJTIwY2FyZCUyMG9uJTIwYmx1cnJ5JTIwc3R1ZGlvJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg2MDUwNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "graphics card"
     },
     {
       "id": "gpu-2",
-      "description": "A red and black themed graphics card on a blurry desk background.",
-      "imageUrl": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmFwaGljcyUyMGNhcmQlMjBvbiUyMGRlc2slMjBibHVycnklMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc4ODU5NzcxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A red and black themed graphics card on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1627885793483-45890910f130?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb3dlcmZ1bCUyMGdyYXBoaWNzJTIwY2FyZCUyMG9uJTIwYmx1cnJ5JTIwc3R1ZGlvJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg2MDUwNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "amd radeon"
     },
     {
       "id": "gpu-3",
-      "description": "A futuristic looking graphics card from NVIDIA on a blurry desk background.",
-      "imageUrl": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmFwaGljcyUyMGNhcmQlMjBvbiUyMGRlc2slMjBibHVycnklMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc4ODU5NzcxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A futuristic looking graphics card from NVIDIA on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1627885793483-45890910f130?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb3dlcmZ1bCUyMGdyYXBoaWNzJTIwY2FyZCUyMG9uJTIwYmx1cnJ5JTIwc3R1ZGlvJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg2MDUwNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "geforce rtx"
     },
     {
       "id": "gpu-4",
-      "description": "NVIDIA GeForce RTX 4080 Super graphics card on a blurry desk background.",
-      "imageUrl": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmFwaGljcyUyMGNhcmQlMjBvbiUyMGRlc2slMjBibHVycnklMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc4ODU5NzcxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "NVIDIA GeForce RTX 4080 Super graphics card on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1627885793483-45890910f130?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb3dlcmZ1bCUyMGdyYXBoaWNzJTIwY2FyZCUyMG9uJTIwYmx1cnJ5JTIwc3R1ZGlvJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg2MDUwNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "rtx 4080"
     },
     {
       "id": "gpu-5",
-      "description": "AMD Radeon RX 7800 XT graphics card on a blurry desk background.",
-      "imageUrl": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmFwaGljcyUyMGNhcmQlMjBvbiUyMGRlc2slMjBibHVycnklMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc4ODU5NzcxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "AMD Radeon RX 7800 XT graphics card on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1627885793483-45890910f130?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb3dlcmZ1bCUyMGdyYXBoaWNzJTIwY2FyZCUyMG9uJTIwYmx1cnJ5JTIwc3R1ZGlvJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg2MDUwNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "rx 7800xt"
     },
     {
       "id": "cpu-1",
-      "description": "An Intel Core i9 processor on a blurry desk background.",
-      "imageUrl": "https://images.unsplash.com/photo-1610706597343-9b567e9c351f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcHUlMjBvbiUyMGRlc2slMjBibHVycnklMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc4ODU5NzcyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "An Intel Core i9 processor on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1591799264318-7e6e74e3dce9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxJbnRlbCUyMENvcmUlMjBpOSUyMHByb2Nlc3NvciUyMG9uJTIwYmx1cnJ5JTIwc3R1ZGlvJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg2MDUwNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "intel cpu"
     },
     {
       "id": "cpu-2",
-      "description": "An AMD Ryzen processor on a blurry desk background.",
-      "imageUrl": "https://images.unsplash.com/photo-1610706597343-9b567e9c351f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcHUlMjBvbiUyMGRlc2slMjBibHVycnklMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc4ODU5NzcyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "An AMD Ryzen processor on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1591799264318-7e6e74e3dce9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxJbnRlbCUyMENvcmUlMjBpOSUyMHByb2Nlc3NvciUyMG9uJTIwYmx1cnJ5JTIwc3R1ZGlvJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg2MDUwNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "amd ryzen"
     },
     {
       "id": "cpu-3",
-      "description": "Intel Core i7-14700K processor on a blurry desk background.",
-      "imageUrl": "https://images.unsplash.com/photo-1610706597343-9b567e9c351f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcHUlMjBvbiUyMGRlc2slMjBibHVycnklMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc4ODU5NzcyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Intel Core i7-14700K processor on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1591799264318-7e6e74e3dce9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxJbnRlbCUyMENvcmUlMjBpOSUyMHByb2Nlc3NvciUyMG9uJTIwYmx1cnJ5JTIwc3R1ZGlvJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg2MDUwNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "intel i7"
     },
     {
       "id": "cpu-4",
-      "description": "AMD Ryzen 7 7800X3D processor on a blurry desk background.",
-      "imageUrl": "https://images.unsplash.com/photo-1610706597343-9b567e9c351f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcHUlMjBvbiUyMGRlc2slMjBibHVycnklMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc4ODU5NzcyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "AMD Ryzen 7 7800X3D processor on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1591799264318-7e6e74e3dce9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxJbnRlbCUyMENvcmUlMjBpOSUyMHByb2Nlc3NvciUyMG9uJTIwYmx1cnJ5JTIwc3R1ZGlvJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg2MDUwNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "ryzen 7"
     },
     {
       "id": "monitor-1",
-      "description": "A wide-screen gaming monitor on a blurry desk background.",
-      "imageUrl": "https://images.unsplash.com/photo-1603731810962-d2d88924f4a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBtb25pdG9yJTIwb24lMjBkZXNrJTIwYmx1cnJ5JTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg1OTc3MzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A wide-screen gaming monitor on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1627885793641-7c8b0b31a31d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aWRlLXNjcmVlbiUyMGdhbWluZyUyMG1vbml0b3IlMjBvbiUyMGJsdXJyeSUyMHN0dWRpbyUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NjA1MDg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "gaming monitor"
     },
     {
       "id": "monitor-2",
-      "description": "A curved ultrawide gaming monitor on a blurry desk background.",
-      "imageUrl": "https://images.unsplash.com/photo-1603731810962-d2d88924f4a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBtb25pdG9yJTIwb24lMjBkZXNrJTIwYmx1cnJ5JTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg1OTc3MzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A curved ultrawide gaming monitor on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1627885793641-7c8b0b31a31d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aWRlLXNjcmVlbiUyMGdhbWluZyUyMG1vbml0b3IlMjBvbiUyMGJsdXJyeSUyMHN0dWRpbyUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NjA1MDg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "curved monitor"
     },
     {
       "id": "monitor-3",
-      "description": "Samsung Odyssey G9 49 inch curved monitor on a blurry desk background.",
-      "imageUrl": "https://images.unsplash.com/photo-1603731810962-d2d88924f4a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBtb25pdG9yJTIwb24lMjBkZXNrJTIwYmx1cnJ5JTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg1OTc3MzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Samsung Odyssey G9 49 inch curved monitor on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1627885793641-7c8b0b31a31d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aWRlLXNjcmVlbiUyMGdhbWluZyUyMG1vbml0b3IlMjBvbiUyMGJsdXJyeSUyMHN0dWRpbyUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NjA1MDg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "ultrawide monitor"
     },
     {
       "id": "monitor-4",
-      "description": "ASUS ROG Swift PG279QM 27 inch monitor on a blurry desk background.",
-      "imageUrl": "https://images.unsplash.com/photo-1603731810962-d2d88924f4a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBtb25pdG9yJTIwb24lMjBkZXNrJTIwYmx1cnJ5JTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg1OTc3MzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "ASUS ROG Swift PG279QM 27 inch monitor on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1627885793641-7c8b0b31a31d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aWRlLXNjcmVlbiUyMGdhbWluZyUyMG1vbml0b3IlMjBvbiUyMGJsdXJyeSUyMHN0dWRpbyUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NjA1MDg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "asus monitor"
     },
     {
       "id": "keyboard-1",
-      "description": "A mechanical gaming keyboard on a blurry desk background.",
-      "imageUrl": "https://images.unsplash.com/photo-1595225479495-045a1975452f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBrZXlib2FyZCUyMG9uJTIwZGVzayUyMGJsdXJyeSUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NTk3NzQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A mechanical gaming keyboard on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1627192226453-6a0846c8269a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtZWNoYW5pY2FsJTIwZ2FtaW5nJTIwa2V5Ym9hcmQlMjBvbiUyMGJsdXJyeSUyMHN0dWRpbyUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NjA1MDk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "mechanical keyboard"
     },
     {
       "id": "keyboard-2",
-      "description": "Razer Huntsman V2 Analog keyboard on a blurry desk background.",
-      "imageUrl": "https://images.unsplash.com/photo-1595225479495-045a1975452f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBrZXlib2FyZCUyMG9uJTIwZGVzayUyMGJsdXJyeSUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NTk3NzQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Razer Huntsman V2 Analog keyboard on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1627192226453-6a0846c8269a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtZWNoYW5pY2FsJTIwZ2FtaW5nJTIwa2V5Ym9hcmQlMjBvbiUyMGJsdXJyeSUyMHN0dWRpbyUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NjA1MDk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "razer keyboard"
     },
     {
       "id": "mouse-1",
-      "description": "A wireless gaming mouse on a blurry desk background.",
-      "imageUrl": "https://images.unsplash.com/photo-1588825184914-9b533355325b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBtb3VzZSUyMG9uJTIwZGVzayUyMGJsdXJyeSUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NTk3NzUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A wireless gaming mouse on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1615663641322-26d38a531a7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aXJlbGVzcyUyMGdhbWluZyUyMG1vdXNlJTIwb24lMjBibHVycnklMjBzdHVkaW8lMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc4ODYwNTEwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "gaming mouse"
     },
     {
       "id": "mouse-2",
-      "description": "Logitech G Pro X Superlight mouse on a blurry desk background.",
-      "imageUrl": "https://images.unsplash.com/photo-1588825184914-9b533355325b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBtb3VzZSUyMG9uJTIwZGVzayUyMGJsdXJyeSUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NTk3NzUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Logitech G Pro X Superlight mouse on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1615663641322-26d38a531a7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aXJlbGVzcyUyMGdhbWluZyUyMG1vdXNlJTIwb24lMjBibHVycnklMjBzdHVkaW8lMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc4ODYwNTEwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "logitech mouse"
     },
     {
@@ -201,91 +201,115 @@
     {
       "id": "headphones-1",
       "description": "Wireless gaming headphones on a blurry studio background.",
-      "imageUrl": "https://images.unsplash.com/photo-1608156161474-70335c03a1da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBoZWFkcGhvbmVzJTIwb24lMjBkZXNrJTIwYmx1cnJ5JTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg1OTc3NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1546435770-a3e426bf4022?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aXJlbGVzcyUyMGdhbWluZyUyMGhlYWRwaG9uZXMlMjBvbiUyMGJsdXJyeSUyMHN0dWRpbyUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NjA1MTI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "gaming headphones"
     },
     {
       "id": "headphones-2",
       "description": "SteelSeries Arctis Nova Pro Wireless headphones on a blurry studio background.",
-      "imageUrl": "https://images.unsplash.com/photo-1608156161474-70335c03a1da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBoZWFkcGhvbmVzJTIwb24lMjBkZXNrJTIwYmx1cnJ5JTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg1OTc3NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1546435770-a3e426bf4022?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aXJlbGVzcyUyMGdhbWluZyUyMGhlYWRwaG9uZXMlMjBvbiUyMGJsdXJyeSUyMHN0dWRpbyUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NjA1MTI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "steelseries headphones"
     },
     {
       "id": "mic-1",
       "description": "A condenser microphone for streaming on a blurry studio background.",
-      "imageUrl": "https://images.unsplash.com/photo-1616642764952-fe673a0335c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaWNyb3Bob25lJTIwb24lMjBkZXNrJTIwYmx1cnJ5JTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg1OTc3ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1590602847991-f9393356e269?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb25kZW5zZXIlMjBtaWNyb3Bob25lJTIwZm9yJTIwc3RyZWFtaW5nJTIwb24lMjBibHVycnklMjBzdHVkaW8lMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc4ODYwNTEzNXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "gaming microphone"
     },
     {
       "id": "mic-2",
       "description": "Shure MV7 USB/XLR Microphone on a blurry studio background.",
-      "imageUrl": "https://images.unsplash.com/photo-1616642764952-fe673a0335c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaWNyb3Bob25lJTIwb24lMjBkZXNrJTIwYmx1cnJ5JTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg1OTc3ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1590602847991-f9393356e269?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb25kZW5zZXIlMjBtaWNyb3Bob25lJTIwZm9yJTIwc3RyZWFtaW5nJTIwb24lMjBibHVycnklMjBzdHVkaW8lMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc4ODYwNTEzNXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "shure microphone"
+    },
+    {
+      "id": "mic-3",
+      "description": "HyperX QuadCast S microphone on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1590602847991-f9393356e269?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb25kZW5zZXIlMjBtaWNyb3Bob25lJTIwZm9yJTIwc3RyZWFtaW5nJTIwb24lMjBibHVycnklMjBzdHVkaW8lMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc4ODYwNTEzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hyperx microphone"
+    },
+    {
+      "id": "mic-4",
+      "description": "Shure MV7 USB/XLR Microphone on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1590602847991-f9393356e269?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb25kZW5zZXIlMjBtaWNyb3Bob25lJTIwZm9yJTIwc3RyZWFtaW5nJTIwb24lMjBibHVycnklMjBzdHVkaW8lMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc4ODYwNTEzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "shure microphone"
+    },
+    {
+      "id": "mic-5",
+      "description": "Razer Seiren V2 Pro microphone on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1590602847991-f9393356e269?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb25kZW5zZXIlMjBtaWNyb3Bob25lJTIwZm9yJTIwc3RyZWFtaW5nJTIwb24lMjBibHVycnklMjBzdHVkaW8lMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc4ODYwNTEzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "razer microphone"
+    },
+    {
+      "id": "mic-6",
+      "description": "Blue Yeti USB Microphone on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1590602847991-f9393356e269?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb25kZW5zZXIlMjBtaWNyb3Bob25lJTIwZm9yJTIwc3RyZWFtaW5nJTIwb24lMjBibHVycnklMjBzdHVkaW8lMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc4ODYwNTEzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "blue yeti"
     },
     {
       "id": "ram-1",
       "description": "A set of RGB RAM modules on a blurry studio background.",
-      "imageUrl": "https://images.unsplash.com/photo-1624795094946-b0433221345d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyYW0lMjBtb2R1bGVzJTIwb24lMjBkZXNrJTIwYmx1cnJ5JTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg1OTc3ODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1591799264318-7e6e74e3dce9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxJbnRlbCUyMENvcmUlMjBpOSUyMHByb2Nlc3NvciUyMG9uJTIwYmx1cnJ5JTIwc3R1ZGlvJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg2MDUwNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "gaming ram"
     },
     {
       "id": "ram-2",
       "description": "G.Skill Trident Z5 RGB 64GB DDR5 RAM on a blurry studio background.",
-      "imageUrl": "https://images.unsplash.com/photo-1624795094946-b0433221345d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyYW0lMjBtb2R1bGVzJTIwb24lMjBkZXNrJTIwYmx1cnJ5JTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg1OTc3ODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1591799264318-7e6e74e3dce9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxJbnRlbCUyMENvcmUlMjBpOSUyMHByb2Nlc3NvciUyMG9uJTIwYmx1cnJ5JTIwc3R1ZGlvJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg2MDUwNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "gskill ram"
     },
     {
       "id": "psu-1",
       "description": "A power supply unit for a computer on a blurry studio background.",
-      "imageUrl": "https://images.unsplash.com/photo-1624795094946-b0433221345d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyYW0lMjBtb2R1bGVzJTIwb24lMjBkZXNrJTIwYmx1cnJ5JTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg1OTc3ODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1627885793483-45890910f130?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb3dlcmZ1bCUyMGdyYXBoaWNzJTIwY2FyZCUyMG9uJTIwYmx1cnJ5JTIwc3R1ZGlvJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg2MDUwNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "power supply"
     },
     {
       "id": "psu-2",
       "description": "Corsair RM1000x SHIFT 1000W Power Supply on a blurry studio background.",
-      "imageUrl": "https://picsum.photos/seed/blurrypsu2/600/600",
+      "imageUrl": "https://images.unsplash.com/photo-1627885793483-45890910f130?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb3dlcmZ1bCUyMGdyYXBoaWNzJTIwY2FyZCUyMG9uJTIwYmx1cnJ5JTIwc3R1ZGlvJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg2MDUwNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "corsair psu"
     },
     {
       "id": "kawaii-banner",
       "description": "An adorable gaming setup with pink and pastel colors.",
-      "imageUrl": "https://images.unsplash.com/photo-1741512612538-dc33f6d00d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8a2F3YWlpJTIwZ2FtaW5nfGVufDB8fHx8MTc2NzM5NDcyOHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1741512612538-dc33f6d00d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8a2F3YWlpJTIwZ2FtaW5nfGVufDB8fHx8MTc2NzM5NDcyOHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "kawaii gaming"
     },
     {
       "id": "kawaii-headset-1",
       "description": "Pink gaming headset with cat ears on a blurry studio background.",
-      "imageUrl": "https://images.unsplash.com/photo-1608156161474-70335c03a1da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBoZWFkcGhvbmVzJTIwb24lMjBkZXNrJTIwYmx1cnJ5JTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg1OTc3NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1546435770-a3e426bf4022?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aXJlbGVzcyUyMGdhbWluZyUyMGhlYWRwaG9uZXMlMjBvbiUyMGJsdXJyeSUyMHN0dWRpbyUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NjA1MTI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "pink headset"
     },
     {
       "id": "kawaii-headset-2",
       "description": "White gaming headset with bunny ears on a blurry studio background.",
-      "imageUrl": "https://images.unsplash.com/photo-1608156161474-70335c03a1da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBoZWFkcGhvbmVzJTIwb24lMjBkZXNrJTIwYmx1cnJ5JTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg1OTc3NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1546435770-a3e426bf4022?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aXJlbGVzcyUyMGdhbWluZyUyMGhlYWRwaG9uZXMlMjBvbiUyMGJsdXJyeSUyMHN0dWRpbyUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NjA1MTI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "bunny headset"
     },
     {
       "id": "kawaii-keyboard-1",
       "description": "A pink and white 60% mechanical keyboard on a blurry studio background.",
-      "imageUrl": "https://images.unsplash.com/photo-1595225479495-045a1975452f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBrZXlib2FyZCUyMG9uJTIwZGVzayUyMGJsdXJyeSUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NTk3NzQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1627192226453-6a0846c8269a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtZWNoYW5pY2FsJTIwZ2FtaW5nJTIwa2V5Ym9hcmQlMjBvbiUyMGJsdXJyeSUyMHN0dWRpbyUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NjA1MDk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "pink keyboard"
     },
     {
       "id": "kawaii-keyboard-2",
       "description": "My Melody themed mechanical keyboard on a blurry studio background.",
-      "imageUrl": "https://images.unsplash.com/photo-1595225479495-045a1975452f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBrZXlib2FyZCUyMG9uJTIwZGVzayUyMGJsdXJyeSUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NTk3NzQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1627192226453-6a0846c8269a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtZWNoYW5pY2FsJTIwZ2FtaW5nJTIwa2V5Ym9hcmQlMjBvbiUyMGJsdXJyeSUyMHN0dWRpbyUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NjA1MDk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "my melody"
     },
     {
       "id": "kawaii-mousepad-1",
       "description": "A large desk mat with a cute anime character design on a blurry studio background.",
-      "imageUrl": "https://images.unsplash.com/photo-1572276082535-94380b95c479?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBtb3VzZXBhZCUyMG9uJTIwZGVzayUyMGJsdXJyeSUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NTk3Nzk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1591799264318-7e6e74e3dce9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxJbnRlbCUyMENvcmUlMjBpOSUyMHByb2Nlc3NvciUyMG9uJTIwYmx1cnJ5JTIwc3R1ZGlvJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg2MDUwNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "kuromi mousepad"
     },
     {
       "id": "kawaii-mousepad-2",
       "description": "Cinnamoroll themed large desk mat on a blurry studio background.",
-      "imageUrl": "https://images.unsplash.com/photo-1572276082535-94380b95c479?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBtb3VzZXBhZCUyMG9uJTIwZGVzayUyMGJsdXJyeSUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NTk3Nzk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1591799264318-7e6e74e3dce9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxJbnRlbCUyMENvcmUlMjBpOSUyMHByb2Nlc3NvciUyMG9uJTIwYmx1cnJ5JTIwc3R1ZGlvJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg2MDUwNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "cinnamoroll deskmat"
     },
     {
@@ -315,14 +339,86 @@
     {
       "id": "kawaii-mic-1",
       "description": "A pink condenser microphone on a blurry studio background.",
-      "imageUrl": "https://images.unsplash.com/photo-1616642764952-fe673a0335c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaWNyb3Bob25lJTIwb24lMjBkZXNrJTIwYmx1cnJ5JTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg1OTc3ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1590602847991-f9393356e269?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb25kZW5zZXIlMjBtaWNyb3Bob25lJTIwZm9yJTIwc3RyZWFtaW5nJTIwb24lMjBibHVycnklMjBzdHVkaW8lMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc4ODYwNTEzNXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "pink microphone"
     },
     {
       "id": "kawaii-keycaps-1",
       "description": "Pastel colored keycaps on a blurry studio background.",
-      "imageUrl": "https://images.unsplash.com/photo-1595225479495-045a1975452f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBrZXlib2FyZCUyMG9uJTIwZGVzayUyMGJsdXJyeSUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NTk3NzQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1627192226453-6a0846c8269a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtZWNoYW5pY2FsJTIwZ2FtaW5nJTIwa2V5Ym9hcmQlMjBvbiUyMGJsdXJyeSUyMHN0dWRpbyUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NjA1MDk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "pastel keycaps"
+    },
+    {
+      "id": "mousepad-1",
+      "description": "A black gaming mousepad on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1627885793641-7c8b0b31a31d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aWRlLXNjcmVlbiUyMGdhbWluZyUyMG1vbml0b3IlMjBvbiUyMGJsdXJyeSUyMHN0dWRpbyUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NjA1MDg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "black mousepad"
+    },
+    {
+      "id": "mousepad-2",
+      "description": "A large black gaming mousepad on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1627885793641-7c8b0b31a31d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aWRlLXNjcmVlbiUyMGdhbWluZyUyMG1vbml0b3IlMjBvbiUyMGJsdXJyeSUyMHN0dWRpbyUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NjA1MDg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "large mousepad"
+    },
+    {
+      "id": "mousepad-3",
+      "description": "A black Razer gaming mousepad on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1627885793641-7c8b0b31a31d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aWRlLXNjcmVlbiUyMGdhbWluZyUyMG1vbml0b3IlMjBvbiUyMGJsdXJyeSUyMHN0dWRpbyUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NjA1MDg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "razer mousepad"
+    },
+    {
+      "id": "mousepad-4",
+      "description": "A black Corsair gaming mousepad on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1627885793641-7c8b0b31a31d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aWRlLXNjcmVlbiUyMGdhbWluZyUyMG1vbml0b3IlMjBvbiUyMGJsdXJyeSUyMHN0dWRpbyUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NjA1MDg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "corsair mousepad"
+    },
+    {
+      "id": "webcam-1",
+      "description": "A Logitech webcam on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1608156161474-70335c03a1da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBoZWFkcGhvbmVzJTIwb24lMjBkZXNrJTIwYmx1cnJ5JTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg1OTc3NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logitech webcam"
+    },
+    {
+      "id": "webcam-2",
+      "description": "A Razer webcam on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1608156161474-70335c03a1da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBoZWFkcGhvbmVzJTIwb24lMjBkZXNrJTIwYmx1cnJ5JTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg1OTc3NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "razer webcam"
+    },
+    {
+      "id": "webcam-3",
+      "description": "An Elgato webcam on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1608156161474-70335c03a1da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBoZWFkcGhvbmVzJTIwb24lMjBkZXNrJTIwYmx1cnJ5JTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg1OTc3NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "elgato webcam"
+    },
+    {
+      "id": "webcam-4",
+      "description": "A Logitech Brio 4K webcam on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1608156161474-70335c03a1da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBoZWFkcGhvbmVzJTIwb24lMjBkZXNrJTIwYmx1cnJ5JTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3ODg1OTc3NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logitech brio"
+    },
+    {
+      "id": "case-1",
+      "description": "An NZXT PC case on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1575024357670-2b5164f47061?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxQQyUyMGNhc2UlMjBvbiUyMGJsdXJyeSUyMHN0dWRpbyUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NjA1MTU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "nzxt case"
+    },
+    {
+      "id": "case-2",
+      "description": "A Lian Li PC case on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1575024357670-2b5164f47061?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxQQyUyMGNhc2UlMjBvbiUyMGJsdXJyeSUyMHN0dWRpbyUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NjA1MTU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lian li"
+    },
+    {
+      "id": "case-3",
+      "description": "A Corsair PC case on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1575024357670-2b5164f47061?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxQQyUyMGNhc2UlMjBvbiUyMGJsdXJyeSUyMHN0dWRpbyUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NjA1MTU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "corsair case"
+    },
+    {
+      "id": "case-4",
+      "description": "A Fractal Design PC case on a blurry studio background.",
+      "imageUrl": "https://images.unsplash.com/photo-1575024357670-2b5164f47061?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxQQyUyMGNhc2UlMjBvbiUyMGJsdXJyeSUyMHN0dWRpbyUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzg4NjA1MTU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fractal design"
     }
   ]
 }
