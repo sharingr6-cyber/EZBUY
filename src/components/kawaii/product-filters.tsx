@@ -11,11 +11,13 @@ import { Label } from "@/components/ui/label";
 
 const categories = [
     { name: 'Todos' },
-    { name: 'Audífonos de Gato' },
-    { name: 'Teclados 60% Pink' },
-    { name: 'Mousepads Gigantes' },
-    { name: 'Sillas Gamer Pastel' },
-    { name: 'Fundas de Consola' },
+    { name: 'Teclados' },
+    { name: 'Ratones' },
+    { name: 'Audifonos' },
+    { name: 'Mousepad' },
+    { name: 'Case' },
+    { name: 'Microfonos' },
+    { name: 'Combos Girl Gamer' },
 ];
 
 const brands = ['Sanrio', 'Razer Quartz', 'Logitech Aurora', 'GeekShare'];
